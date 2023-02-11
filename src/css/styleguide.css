@@ -1,0 +1,72 @@
+:root { 
+  --black: #000000;
+  --cadet-blue: #b5b7c0;
+  --caribbean-green: #15c09861;
+  --charade: #292d32;
+  --cultured-pearl: #f5f5f5;
+  --deep-sea: #008667;
+  --gallery: #eeeeee;
+  --mako: #404b52;
+  --manatee: #9197b3;
+  --persian-green: #00b086;
+  --red: #df0404;
+  --red-2: #df0303;
+  --white: #ffffff;
+  --your-pink: #ffc4c4;
+ 
+  --font-size-l: 22px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 24px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 26px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-medium-charade-14px {
+  color: var(--charade);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-cadet-blue-14px {
+  color: var(--cadet-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-mako-12px {
+  color: var(--mako);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-manatee-14px {
+  color: var(--manatee);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-deep-sea-14px {
+  color: var(--deep-sea);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.poppins-medium-red-14px {
+  color: var(--red-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}

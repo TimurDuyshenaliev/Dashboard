@@ -1,0 +1,907 @@
+/* screen - dashboard */
+
+.dashboard {
+  align-items: flex-start;
+  background-color: #fafbff;
+  border: 1px none;
+  display: flex;
+  gap: 69px;
+  width: 1440px;
+}
+
+.dashboard .side-menu {
+  align-items: flex-start;
+  display: flex;
+  height: 1198px;
+  min-width: 308px;
+}
+
+.dashboard .overlap-group2 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 10px 60px #e1ecf880;
+  display: flex;
+  flex-direction: column;
+  min-height: 1198px;
+  padding: 36px 0;
+  width: 306px;
+}
+
+.dashboard .flex-row {
+  align-items: center;
+  margin-right: 33.0px;
+  min-width: 217px;
+}
+
+.dashboard .group-31 {
+  gap: 8px;
+  height: 39px;
+  min-width: 197px;
+}
+
+.dashboard .setting-1 {
+  height: 37px;
+  width: 37px;
+}
+
+.dashboard .title {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 600;
+  letter-spacing: 0.26px;
+  line-height: normal;
+  min-height: 39px;
+  min-width: 150px;
+}
+
+.dashboard .v01 {
+  color: #828282;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  letter-spacing: -0.10px;
+  line-height: normal;
+  margin-top: 12.0px;
+  min-height: 15px;
+  min-width: 18px;
+}
+
+.dashboard .list-menu-1 {
+  align-self: flex-start;
+  gap: 14px;
+  margin-left: 39px;
+  margin-top: 64px;
+  min-width: 118px;
+}
+
+.dashboard .icon-24-outline-key-square {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .dashboard-1 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-bottom: 1.0px;
+  min-height: 21px;
+  min-width: 78px;
+}
+
+.dashboard .list-menu {
+  align-items: center;
+  display: flex;
+  margin-left: 5.0px;
+  margin-top: 40px;
+  min-width: 233px;
+}
+
+.dashboard .x3d-square-1 {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .product {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 14px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 54px;
+}
+
+.dashboard .chevron-right-2 {
+  height: 16px;
+  margin-left: 123px;
+  width: 16px;
+}
+
+.dashboard .overlap-group1 {
+  align-items: center;
+  background-color: #5932ea;
+  border-radius: 8px;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  margin-top: 29px;
+  min-width: 250px;
+  padding: 0 8px;
+}
+
+.dashboard .user-square-1 {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .customers {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 14px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 77px;
+}
+
+.dashboard .chevron-right-2-1 {
+  margin-left: 100px;
+}
+
+.dashboard .list-menu-2 {
+  margin-left: 5.0px;
+  margin-top: 29px;
+  min-width: 233px;
+}
+
+.dashboard .wallet-money-2 {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .income {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 14px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 53px;
+}
+
+.dashboard .chevron-right-2-2 {
+  margin-left: 124px;
+}
+
+.dashboard .discount-shape-1 {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .promote {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 14px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 60px;
+}
+
+.dashboard .chevron-right-2-3 {
+  margin-left: 117px;
+}
+
+.dashboard .message-question-1 {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .help {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 14px;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 32px;
+}
+
+.dashboard .chevron-right-2-4 {
+  margin-left: 145px;
+}
+
+.dashboard .group-300 {
+  align-self: flex-start;
+  gap: 12px;
+  margin-left: 28px;
+  margin-top: 597px;
+  min-width: 155px;
+}
+
+.dashboard .ellipse-8 {
+  height: 42px;
+  object-fit: cover;
+  width: 42px;
+}
+
+.dashboard .overlap-group {
+  height: 38px;
+  position: relative;
+  width: 101px;
+}
+
+.dashboard .evano {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0.14px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.dashboard .project-manager {
+  color: #757575;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.12px;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+}
+
+.dashboard .flex-col {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 40px;
+  min-height: 900px;
+  width: 974px;
+}
+
+.dashboard .hello-evano {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 36px;
+}
+
+.dashboard .flex-col-1 {
+  align-items: center;
+  background-image: url(../img/rectangle-30.svg);
+  background-size: 100% 100%;
+  gap: 40px;
+  margin-left: -60px;
+  min-height: 932px;
+  padding: 80px 0;
+  width: 1088px;
+}
+
+.dashboard .flex-row-1 {
+  gap: 506px;
+  height: 61px;
+  margin-right: 15.0px;
+  min-width: 877px;
+}
+
+.dashboard .flex-col-2 {
+  align-items: flex-start;
+  gap: 7px;
+  min-height: 61px;
+  width: 155px;
+}
+
+.dashboard .all-customers {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  letter-spacing: -0.22px;
+  line-height: normal;
+  min-height: 33px;
+}
+
+.dashboard .active-members {
+  color: #16c098;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  min-height: 21px;
+}
+
+.dashboard .search-container {
+  align-items: center;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  display: flex;
+  gap: 8px;
+  height: 38px;
+  margin-top: 5.0px;
+  min-width: 216px;
+  padding: 0 8px;
+}
+
+.dashboard .icon-search {
+  height: 24px;
+  width: 24px;
+}
+
+.dashboard .search {
+  color: var(--cadet-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: -0.12px;
+  line-height: normal;
+  min-height: 18px;
+  min-width: 42px;
+  border: transparent;
+  background-color: #f9fbff;
+}
+.dashboard .search:focus {
+  outline: none;
+  background-color: #f9fbff;
+}
+
+.dashboard .flex-col-3 {
+  align-items: center;
+  gap: 30px;
+  min-height: 641px;
+  width: 968px;
+}
+
+.dashboard .group-22 {
+  flex-direction: column;
+  min-height: 587px;
+  width: 968px;
+}
+
+.dashboard .navbar {
+  align-items: flex-start;
+  display: flex;
+  height: 21px;
+  margin-right: 17.0px;
+  min-width: 875px;
+}
+
+.dashboard .navbar-link-customer-name {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+  min-width: 115px;
+}
+
+.dashboard .navbar-link-company {
+  margin-left: 57px;
+  min-width: 70px;
+}
+
+.dashboard .navbar-link-phone-number {
+  margin-left: 61px;
+  min-width: 104px;
+}
+
+.dashboard .navbar-link-email {
+  margin-left: 52px;
+  min-width: 39px;
+}
+
+.dashboard .navbar-link-country {
+  margin-left: 168px;
+  min-width: 56px;
+}
+
+.dashboard .navbar-link-status {
+  margin-left: 96px;
+  min-width: 45px;
+  text-align: center;
+}
+
+.dashboard .line-4 {
+  margin-top: 13px;
+  width: 968px;
+}
+
+.dashboard .group-22-item {
+  align-items: center;
+  display: flex;
+  height: 29px;
+  margin-left: 4.0px;
+  margin-top: 20px;
+  min-width: 896px;
+}
+
+.dashboard .navbar-link-name {
+  min-width: 90px;
+}
+
+.dashboard .navbar-link-microsoft {
+  margin-left: 82px;
+  min-width: 64px;
+}
+
+.dashboard .navbar-link-phone {
+  margin-left: 67px;
+  min-width: 104px;
+}
+
+.dashboard .navbar-link-janemicrosoftcom {
+  margin-left: 52px;
+  min-width: 146px;
+}
+
+.dashboard .navbar-link-place {
+  margin-left: 61px;
+  min-width: 93px;
+}
+
+.dashboard .frame-291 {
+  background-color: var(--caribbean-green);
+  border-color: var(--persian-green);
+  margin-left: 47px;
+  padding: 4px 12px;
+  width: 80px;
+}
+
+.dashboard .active {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.dashboard .line {
+  margin-top: 19px;
+  width: 888px;
+}
+
+.dashboard .navbar-link-name-1 {
+  min-width: 76px;
+}
+
+.dashboard .navbar-link-yahoo {
+  margin-left: 96px;
+  min-width: 45px;
+}
+
+.dashboard .navbar-link-phone-1 {
+  margin-left: 86px;
+  min-width: 109px;
+}
+
+.dashboard .navbar-link-floydyahoocom {
+  margin-left: 47px;
+  min-width: 128px;
+}
+
+.dashboard .navbar-link-kiribati {
+  margin-left: 79px;
+  min-width: 49px;
+}
+
+.dashboard .frame-291-1 {
+  background-color: var(--your-pink);
+  border-color: var(--red);
+  margin-left: 91px;
+  width: fit-content;
+}
+
+.dashboard .navbar-link-name-2 {
+  min-width: 114px;
+}
+
+.dashboard .navbar-link-adobe {
+  margin-left: 58px;
+  min-width: 46px;
+}
+
+.dashboard .navbar-link-phone-2 {
+  margin-left: 85px;
+  min-width: 107px;
+}
+
+.dashboard .navbar-link-ronaldadobecom {
+  margin-left: 49px;
+  min-width: 140px;
+}
+
+.dashboard .navbar-link-name-3 {
+  margin-left: 67px;
+  min-width: 38px;
+}
+
+.dashboard .frame-291-2 {
+  background-color: var(--your-pink);
+  border-color: var(--red);
+  margin-left: 102px;
+  width: fit-content;
+}
+
+.dashboard .name {
+  min-width: 118px;
+}
+
+.dashboard .tesla {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 54px;
+  min-height: 21px;
+  min-width: 37px;
+}
+
+.dashboard .phone {
+  margin-left: 94px;
+  min-width: 107px;
+}
+
+.dashboard .marvinteslacom {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 49px;
+  min-height: 21px;
+  min-width: 133px;
+}
+
+.dashboard .place {
+  min-width: 28px;
+}
+
+.dashboard .frame-291-3 {
+  background-color: var(--caribbean-green);
+  border-color: var(--persian-green);
+  margin-left: 112px;
+  width: 80px;
+}
+
+.dashboard .name-1 {
+  min-width: 82px;
+}
+
+.dashboard .google {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 90px;
+  min-height: 21px;
+  min-width: 50px;
+}
+
+.dashboard .phone-1 {
+  margin-left: 81px;
+  min-width: 108px;
+}
+
+.dashboard .jeromegooglecom {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 48px;
+  min-height: 21px;
+  min-width: 147px;
+}
+
+.dashboard .runion {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 60px;
+  min-height: 21px;
+  min-width: 57px;
+}
+
+.dashboard .frame-291-4 {
+  background-color: var(--caribbean-green);
+  border-color: var(--persian-green);
+  margin-left: 83px;
+  width: 80px;
+}
+
+.dashboard .group-2 {
+  height: 29px;
+  margin-left: 8.0px;
+  margin-top: 20px;
+  min-width: 900px;
+}
+
+.dashboard .name-2 {
+  min-width: 111px;
+}
+
+.dashboard .microsoft {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 61px;
+  min-height: 21px;
+  min-width: 64px;
+}
+
+.dashboard .phone-2 {
+  margin-left: 67px;
+  min-width: 109px;
+}
+
+.dashboard .kathrynmicrosoftcom {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 47px;
+  min-height: 21px;
+  min-width: 169px;
+}
+
+.dashboard .curaao {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 38px;
+  min-height: 21px;
+  min-width: 61px;
+}
+
+.dashboard .frame-291-5 {
+  background-color: var(--caribbean-green);
+  border-color: var(--persian-green);
+  margin-left: 79px;
+  width: 84px;
+}
+
+.dashboard .name-3 {
+  min-width: 89px;
+}
+
+.dashboard .yahoo {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 83px;
+  min-height: 21px;
+  min-width: 45px;
+}
+
+.dashboard .phone-3 {
+  margin-left: 86px;
+  min-width: 104px;
+}
+
+.dashboard .jacobyahoocom {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 52px;
+  min-height: 21px;
+  min-width: 133px;
+}
+
+.dashboard .place-1 {
+  min-width: 37px;
+}
+
+.dashboard .frame-291-6 {
+  background-color: var(--caribbean-green);
+  border-color: var(--persian-green);
+  margin-left: 103px;
+  width: 84px;
+}
+
+.dashboard .name-4 {
+  min-width: 100px;
+}
+
+.dashboard .facebook {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 72px;
+  min-height: 21px;
+  min-width: 68px;
+}
+
+.dashboard .phone-4 {
+  margin-left: 63px;
+  min-width: 107px;
+}
+
+.dashboard .kristinfacebookcom {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 49px;
+  min-height: 21px;
+  min-width: 156px;
+}
+
+.dashboard .land-islands {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 51px;
+  min-height: 21px;
+  min-width: 94px;
+}
+
+.dashboard .frame-291-7 {
+  background-color: var(--your-pink);
+  border-color: var(--red);
+  margin-left: 46px;
+  width: 84px;
+}
+
+.dashboard .flex-row-2 {
+  gap: 376px;
+  min-width: 892px;
+}
+
+.dashboard .showing-data-1-to-8-of-256-k-entries {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 21px;
+  min-width: 243px;
+}
+
+.dashboard .group-299 {
+  gap: 12px;
+  height: 24px;
+  min-width: 273px;
+}
+
+.dashboard .frame-29 {
+  background-color: var(--cultured-pearl);
+  border-color: var(--gallery);
+  flex-direction: column;
+  padding: 6px 9px;
+  width: fit-content;
+}
+
+.dashboard .text-2 {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.dashboard .frame-292 {
+  background-color: #5932ea;
+  flex-direction: column;
+  padding: 6px 10px;
+  width: fit-content;
+}
+
+.dashboard .number {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+}
+
+.dashboard .frame-294 {
+  background-color: var(--cultured-pearl);
+  border-color: var(--gallery);
+  flex-direction: column;
+  padding: 6px 8px;
+  width: fit-content;
+}
+
+.dashboard .text-3 {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  margin-top: 4.0px;
+  min-width: 9px;
+}
+
+.dashboard .frame-296 {
+  background-color: var(--cultured-pearl);
+  border-color: var(--gallery);
+  flex-direction: column;
+  padding: 6px 5px;
+  width: fit-content;
+}
+
+.dashboard .text-1 {
+  margin-top: -1.00px;
+  width: fit-content;
+}
+
+.dashboard .active-1 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+}
+
+.dashboard .chevron-right-2-5 {
+  height: 16px;
+  width: 16px;
+}
+
+.dashboard .flex {
+  display: flex;
+  gap: 2px;
+}
+
+.dashboard .flex-col-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .flex-row-3 {
+  align-items: center;
+  display: flex;
+}
+
+.dashboard .frame {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dashboard .frame-291-8 {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 4px 12px;
+}
+
+.dashboard .group {
+  align-items: center;
+  display: flex;
+}
+
+.dashboard .line-1 {
+  height: 1px;
+  object-fit: cover;
+}
+
+.dashboard .list-menu-3 {
+  align-items: center;
+  display: flex;
+}
+
+.dashboard .name-5 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.dashboard .navbar-link {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.dashboard .navbar-link-name-4 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.dashboard .navbar-link-phone-3 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.dashboard .number-5 {
+  letter-spacing: -0.12px;
+  line-height: 12px;
+  margin-top: -1.00px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dashboard .phone-5 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  min-height: 21px;
+}
+
+.dashboard .place-2 {
+  letter-spacing: -0.14px;
+  line-height: normal;
+  margin-left: 74px;
+  min-height: 21px;
+}
+
+.dashboard .text {
+  letter-spacing: -0.12px;
+  line-height: 12px;
+  white-space: nowrap;
+}
