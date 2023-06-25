@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div id="btn-open" class="sidebar-btn">
+        <img src="/image/logo.svg" alt="logo">
+    </div>
+    <aside id="sidebar" class="sidebar">
+        <a id="btn-close" class="closebtn">&times;</a>
+        <div class="sidebar-container">
+            <div class="logo">
+                <img src="/image/logo.svg" alt="logo">
+                <p class="logo-text">Dashboard</p>
+                <p class="logo-version">v.01</p>
+            </div>
+            <nav class="sidebar__nav">
+                <ul class="sidebar__nav-links__list">
+                    <li class="list__item">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/key-square.svg" alt="dashboard">
+                            <span class="item__text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/product-icon.svg" alt="Product">
+                            <span class="item__text">Product</span>
+                            <img class="item__chevron" src="/image/chevron-right.svg" alt="chevron">
+                        </a>
+                    </li>
+                    <li class="list__item list__item-active">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/customer.svg" alt="customer">
+                            <span class="item__text">Customers</span>
+                            <img class="item__chevron" src="/image/chevron-right.svg" alt="chevron">
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/wallet-money.svg" alt="wallet">
+                            <span class="item__text">Income</span>
+                            <img class="item__chevron" src="/image/chevron-right.svg" alt="chevron">
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/discount-shape.svg" alt="discount">
+                            <span class="item__text">Promote</span>
+                            <img class="item__chevron" src="/image/chevron-right.svg" alt="chevron">
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a class="item" href="#">
+                            <img class="item__icon" src="/image/message-question.svg" alt="Help">
+                            <span class="item__text">Help</span>
+                            <img class="item__chevron" src="/image/chevron-right.svg" alt="chevron">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="sidebar__user">
+                <img class="user-avatar" src="/image/avatar.png" alt="avatar">
+                <div class="user-desc">
+                    <p class="user-desc__name">Evano</p>
+                    <p class="user-desc__job-title">Project Manager</p>
+                </div>
+            </div>
+        </div> 
+    </aside>
+    <section class="section-customer">
+        <div class="container">
+            <h2 class="section-customer__h2">
+                Hello Evano 👋🏼,
+            </h2>
+            <div class="section-customer__all-customers">
+                <div class="all-customers__upper">
+                    <div class="all-customers__upper-text">
+                        <h3 class="all-customers__upper-text__title">
+                            All Customers
+                        </h3>
+                        <h4 class="all-customers__upper-text__subtitle">
+                            Active Members
+                        </h4>
+                    </div>
+                    <form class="nosubmit all-customers__upper-search">
+                        <input class="nosubmit" type="search" placeholder="Search...">
+                    </form>
+                </div>
+                <div class="all-customers__table-body">
+                    <table class="table-body">
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Company</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>Jane Cooper</td>
+                            <td>Microsoft</td>
+                            <td>(225) 555-0118</td>
+                            <td>jane@microsoft.com</td>
+                            <td>United States</td>
+                            <td>
+                                <button class="btn-status_active">
+                                    Active
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Floyd Miles</td>
+                            <td>Yahoo</td>
+                            <td>(205) 555-0100 </td>
+                            <td>floyd@yahoo.com</td>
+                            <td>Kiribati</td>
+                            <td>
+                                <button class="btn-status_inactive">
+                                    Inactive
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ronald Richards</td>
+                            <td>Adobe</td>
+                            <td>(302) 555-0107</td>
+                            <td>ronald@adobe.com</td>
+                            <td>Israel</td>
+                            <td>
+                                <button class="btn-status_inactive">
+                                    Inactive
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Marvin McKinney</td>
+                            <td>Tesla</td>
+                            <td>(252) 555-0126</td>
+                            <td>marvin@tesla.com</td>
+                            <td>Iran</td>
+                            <td>
+                                <button class="btn-status_active">
+                                    Active
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jerome Bell</td>
+                            <td>Google</td>
+                            <td>(629) 555-0129</td>
+                            <td>jerome@google.com</td>
+                            <td>Réunion</td>
+                            <td>
+                                <button class="btn-status_active">
+                                    Active
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kathryn Murphy</td>
+                            <td>Microsoft</td>
+                            <td>(406) 555-0120</td>
+                            <td>kathryn@microsoft.com</td>
+                            <td>Curaçao</td>
+                            <td>
+                                <button class="btn-status_active">
+                                    Active
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jacob Jones</td>
+                            <td>Yahoo</td>
+                            <td>(208) 555-0112</td>
+                            <td>jacob@yahoo.com</td>
+                            <td>Brazil</td>
+                            <td>
+                                <button class="btn-status_active">
+                                    Active
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kristin Watson</td>
+                            <td>Facebook</td>
+                            <td>(704) 555-0127</td>
+                            <td>kristin@facebook.com</td>
+                            <td>Åland Islands</td>
+                            <td>
+                                <button class="btn-status_inactive">
+                                    Inactive
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="section-customer__all-customers-text">
+                    Showing data 1 to 8 of  256K entries
+                </p>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1">&lt;</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item">...</li>
+                      <li class="page-item"><a class="page-link" href="#">40</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">&gt;</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </section>
+    <script>
+        function openSideBar(){
+            let openBtn = document.getElementById("btn-open");
+            let sidebar = document.getElementById("sidebar");
+            let closeBtn = document.getElementById("btn-close");
+
+            openBtn.onclick = function(){
+                sidebar.style.display = "block";
+                closeBtn.style.display = "block";
+
+            }
+            
+            closeBtn.onclick = function(){
+                sidebar.style.display = "none";
+                closeBtn.style.display = "block";
+            }
+            
+            
+            function closeSide(){
+
+            }
+        }
+        openSideBar();
+    </script>
+</body>    
+</html>
