@@ -1,2 +1,3 @@
 # Dashboard
-Tesr task 
+Pure admin panel for client
+Mobile version include
